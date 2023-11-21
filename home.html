@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Home Page</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+.fa {
+  padding: 15px;
+  font-size: 30px;
+  width: 22%;
+  text-align: center;
+  text-decoration: none;
+  margin-top:30px;
+  float:left;
+  border-radius: 50px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: rgb(207, 172, 118);
+  color: black;
+}
+
+.fa-instagram {
+  background: rgb(207, 172, 118);
+  color: black;
+}
+
+* {
+  box-sizing:content-box;
+}
+
+body {
+  font-family:'Courier New', Courier, monospace;
+}
+
+/* Style the header */
+header {
+  background-image: url("img/image3.jpeg");
+  background-position: right top;
+  padding: 50px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+/* Container for flexboxes */
+section {
+  display: -webkit-flex;
+  display: flex;
+}
+
+/* Style the navigation menu */
+nav {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 0;
+  background: rgb(207, 172, 118);
+  padding: 30px;
+  color:white;
+  font-size: 25px;
+}
+
+
+/* Style the news nav menu */
+.news {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  background:rgb(248, 229, 201);
+  padding: 20px;
+  border: 1px;
+  outline-style: solid;
+ outline-width: thin;
+ font-size: 15px;;
+
+}
+
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0px;
+}
+
+/*style the link */
+
+a{
+  color:black;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+  color: gray;
+}
+
+a:active {
+  color:grey;
+}
+
+/* Style the content */
+article {
+  -webkit-flex: 3;
+  -ms-flex: 3;
+  flex: 3;
+  background-color:#ecebc9;
+  background-position: middle;
+  color:black;
+  padding: 10px;
+}
+article p{
+  text-align:justify;
+  font-size: 16px;
+}
+/* Style the footer */
+footer {
+  background-image: url("img/image3.jpeg");
+  background-position: right bottom;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+img.islogo {
+  width:25%;
+  height:auto;
+  float:right;
+}
+
+img.islogo:hover {
+  opacity: 1.0;
+}
+
+/* Responsive layout - makes the menu and the content (inside the section) sit on top of each other instead of next to each other */
+@media (max-width: 600px) {
+  section {
+    -webkit-flex-direction: column;
+    flex-direction: column;
+  }
+}
+</style>
+</head>
+<body>
+
+   
+
+<header>
+  <h2><br></h2>
+</header>
+
+<section>
+  <nav>
+    <ul>
+      <li><a href="home.html"><b>Home</b></a></li>
+      <li><a href="profile.html"><b>Profile</b></a></li>
+      <li><a href="pictures.html"><b>Pictures</b></a></li>
+      <li><a href="videos.html"><b>Videos</b></a></li>
+      <li><a href="about.html"><b>About</b></a></li>
+    </ul>
+  </nav>
+  
+  <article>
+  <a href="https://www.facebook.com/profile.php?id=100095594106224" class="fa fa-facebook"></a></br></br></br></br></br>
+<a href= "https://instagram.com/jstannxz?igshid=OGQ5ZDc2ODk2ZA==" class="fa fa-instagram"></a>
+<a href="https://ispsc.edu.ph/campuses/santa-maria-campus/"><img src="logo.png" alt="ISPSC" class="islogo"></a> </br></br></br></br></br>
+<p><b>"Learn with Passion, Live with Purpose, and Leave a Legacy"</b> is our mantra as college students. We cherish the pursuit of knowledge and view our college years as a time to embrace challenges and expand our horizons. Balancing academic rigor with a well-rounded life is our constant endeavor, and we pledge to celebrate the diversity of our campus. We are committed to giving back to our communities and the world at large, understanding that our education comes with a responsibility to create a positive impact. Most importantly, we'll relish every moment, make lifelong memories, and find joy in the journey, for life's true masterpiece lies in the experiences we collect along the way.</p>
+</article>
+
+</section>
+
+<footer>
+  <p>all rights reserved 2023</p>
+</footer>
+
+</body>
+</html>
+

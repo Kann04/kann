@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>About Page</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family:'Courier New', Courier, monospace;
+}
+
+/* Style the header */
+header {
+  background-image: url("img/image3.jpeg");
+  background-position: right top;
+  padding: 50px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+/* Container for flexboxes */
+section {
+  display: -webkit-flex;
+  display: flex;
+}
+
+/* Style the navigation menu */
+nav {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 0;
+  background: rgb(207, 172, 118);
+  padding: 30px;
+  color:white;
+  font-size: 25px;
+}
+
+
+/* Style the news nav menu */
+.news {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  background:rgb(207, 172, 118);
+  padding: 20px;
+  border: 1px;
+  outline-style: solid;
+ outline-width: thin;
+ font-size: 15px;;
+
+}
+
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+/*style the link */
+
+a{
+  color:black;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+  color: gray;
+}
+
+a:active {
+  color:grey;
+}
+
+/* Style the content */
+article {
+  -webkit-flex: 3;
+  -ms-flex: 3;
+  flex: 3;
+  background-color:#ecebc9;
+  background-position: middle;
+  color:black;
+  padding: 10px;
+  text-align: center;
+}
+article p{
+  font-size: 16px;
+}
+article h1{
+  font-size: 25px;
+}
+
+/* Style the footer */
+footer {
+  background-image: url("img/image3.jpeg");
+  background-position: right bottom;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+img.islogo {
+  width: 50%;
+  height: auto;
+  padding: 5px;
+  margin: 0 auto; /* Center horizontally */
+  display: block; /* Make it a block element for horizontal centering to work */
+  margin-bottom: 2px;
+}
+
+img.islogo:hover {
+  opacity: 1.0;
+}
+
+/* Responsive layout - makes the menu and the content (inside the section) sit on top of each other instead of next to each other */
+@media (max-width: 600px) {
+  section {
+    -webkit-flex-direction: column;
+    flex-direction: column;
+  }
+}
+</style>
+</head>
+<body>
+
+   
+
+<header>
+  <h2><br></h2>
+</header>
+
+<section>
+  <nav>
+    <ul>
+      <li><a href="home.html"><b>Home</b></a></li>
+      <li><a href="profile.html"><b>Profile</b></a></li>
+      <li><a href="pictures.html"><b>Pictures</b></a></li>
+      <li><a href="videos.html"><b>Videos</b></a></li>
+      <li><a href="about.html"><b>About</b></a></li>
+    </ul>
+  </nav>
+  
+  <article>
+    <h1 style="text-align:center; background-color: rgb(207, 172, 118);">ABOUT</h1>
+    <p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Kristel Ann V. Pinto is a 21-year-old woman who is currently in her third year of pursuing a Bachelor of Science in Information Technology (BSIT) at a reputable university. She hails from a modest background, with her father, Arnold Pinto, working as a dedicated security guard, and her mother, Vanessa Pinto, taking care of their home as a housewife. Kristel has one younger sister, who she adores and is very protective of. Kristel's upbringing has instilled in her a strong work ethic and a deep appreciation for the value of education. Her parents, despite their humble means, have always emphasized the importance of learning and encouraged her to pursue her dreams. As a result, Kristel is determined to excel in her studies and build a promising future for herself. Beyond her academic pursuits, Kristel has a couple of passionate hobbies. </p>
+    <p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; She is an avid reader, always eager to dive into the world of books and explore new ideas. Reading not only helps her expand her knowledge but also provides her with a means of relaxation and escape. She often finds solace in the pages of her favorite novels and non-fiction books. Additionally, Kristel has a love for traveling. She believes that exploring new places and experiencing different cultures broadens her horizons and offers a unique perspective on life. Despite financial constraints, she has managed to save some money to embark on short trips whenever her busy academic schedule allows. Kristel is a hardworking and driven young woman who hopes to make a positive impact in the field of information technology.</p>
+    <p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Kristel is a hardworking and driven young woman who hopes to make a positive impact in the field of information technology. She aspires to use her education to uplift her family's circumstances and support her younger sister's education as well. Her determination, combined with her love for reading and traveling, has shaped her into an open-minded, ambitious individual ready to embrace the challenges and opportunities that life has to offer.</p>
+</article>
+
+<nav  class="news">
+    <ul>
+<a href="https://ispsc.edu.ph/campuses/santa-maria-campus/"><img src="logo.png" alt="ISPSC" class="islogo"></a> </br></br>
+ </ul>
+</nav>
+
+</section>
+
+<footer>
+  <p>all rights reserved 2023</p>
+</footer>
+
+</body>
+</html>
+
